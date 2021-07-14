@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+
+  /* background-color: black; */
+}
+main {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+header {
+  background-color: #2d25a0;
+  height: 677px;
+  padding-left: 156px;
+  padding-right: 120px;
+  padding-top: 40px;
+  margin-bottom: 70px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 67px;
+}
+nav a, .hot-header-title a {
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+  padding-right: 30px;
+  font-size: 1.5em;
+}
+button, button a{
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  background-color: #e02c6d;
+  padding: 10px, 24px;
+  cursor: pointer;
+  width: 168px;
+  height: 44px;
+}
+.hot-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.hot-header-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: aliceblue;
+  padding-right: 100px;
+}
+.hot-header-title a{
+  padding-right: 0;
+}
+.hot-header-image img {
+  width: 556.01px;
+  height: 438px;
+}
+/* -----------------
+     section 
+     ------------------*/
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-row-gap: 30px;
+         grid-column-gap: 27px; */
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.player {
+  /* width: 330px;
+         height: 474px; */
+  box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.116);
+  border-radius: 5px;
+  margin-right: 30px;
+  margin-bottom: 27px;
+  /* object-fit: cover; */
+}
+.player-image img {
+  width: 527px;
+  height: 256px;
+  text-align: center;
+  padding: 12px;
+}
+.player-info {
+  padding: 12px;
+}
+.player-title{
+    font-size: 28px;
+    color: black;
+}
+.all-highlights {
+  display: flex;
+  align-items: center;
+
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.article {
+  width: 466px;
+  height: 309px;
+}
+.highlights img {
+  width: 567px;
+  height: 427px;
+}
+footer {
+  margin-top: 158px;
+  margin-bottom: 100px;
+  text-align: center;
+}
